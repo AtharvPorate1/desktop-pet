@@ -14,3 +14,16 @@
 
 
 ## Name ???
+
+## Features Planned ( Can add more later )
+
+- always on top
+- Movable (shiftable anywhere)
+- Adding Book Feature ( cartoony book to add other features like toDo )
+- Todo List
+- Reminders
+- Ai to answer back
+- pet actions ( feed , play, sleep etc )
+
+
+
