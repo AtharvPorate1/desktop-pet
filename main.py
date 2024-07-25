@@ -10,6 +10,8 @@ walk_left = [6, 7]
 walk_right = [8, 9]
 event_number = random.randrange(1, 3, 1)
 
+assetPath = "assets"
+
 def event(cycle, check, event_number, x):
     print(f"Event called with cycle: {cycle}, check: {check}, event_number: {event_number}, x: {x}")
     if event_number in idle_num:
@@ -74,12 +76,12 @@ def update(cycle, check, event_number, x):
 window = tk.Tk()
 
 # Load buddy's action gifs
-idle = [tk.PhotoImage(file='idle.gif', format='gif -index %i' % i) for i in range(5)]  # idle gif
-idle_to_sleep = [tk.PhotoImage(file='idle_to_sleep.gif', format='gif -index %i' % i) for i in range(8)]  # idle to sleep gif
-sleep = [tk.PhotoImage(file='sleep.gif', format='gif -index %i' % i) for i in range(3)]  # sleep gif
-sleep_to_idle = [tk.PhotoImage(file='sleep_to_idle.gif', format='gif -index %i' % i) for i in range(8)]  # sleep to idle gif
-walk_positive = [tk.PhotoImage(file='walking_positive.gif', format='gif -index %i' % i) for i in range(8)]  # walk to left gif
-walk_negative = [tk.PhotoImage(file='walking_negative.gif', format='gif -index %i' % i) for i in range(8)]  # walk to right gif
+idle = [tk.PhotoImage(file=f'{assetPath}/idle.gif', format='gif -index %i' % i) for i in range(5)]  # idle gif
+idle_to_sleep = [tk.PhotoImage(file=f'{assetPath}/idle_to_sleep.gif', format='gif -index %i' % i) for i in range(8)]  # idle to sleep gif
+sleep = [tk.PhotoImage(file=f'{assetPath}/sleep.gif', format='gif -index %i' % i) for i in range(3)]  # sleep gif
+sleep_to_idle = [tk.PhotoImage(file=f'{assetPath}/sleep_to_idle.gif', format='gif -index %i' % i) for i in range(8)]  # sleep to idle gif
+walk_positive = [tk.PhotoImage(file=f'{assetPath}/walking_positive.gif', format='gif -index %i' % i) for i in range(8)]  # walk to left gif
+walk_negative = [tk.PhotoImage(file=f'{assetPath}/walking_negative.gif', format='gif -index %i' % i) for i in range(8)]  # walk to right gif
 
 # Window configuration
 window.config(highlightbackground='black')
