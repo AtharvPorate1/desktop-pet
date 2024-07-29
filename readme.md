@@ -1,29 +1,25 @@
-# Project Inspirations 
+# Desktop Pet
 
-## Some repos for inspiration
+## Inspiration Repositories
 
-- https://github.com/1ilit/Desktop-Cat
-- https://github.com/Shirros/desktop-pet
-- https://github.com/wkostusiak/desktop-pet?tab=readme-ov-file
+- [Desktop-Cat](https://github.com/1ilit/Desktop-Cat)
+- [Shirros Desktop Pet](https://github.com/Shirros/desktop-pet)
+- [wkostusiak Desktop Pet](https://github.com/wkostusiak/desktop-pet?tab=readme-ov-file)
 
+## Name (for Pet)
 
-## Medium Post to Start working on
+*(Not decided yet)*
 
+## Planned Features
 
-- https://medium.com/analytics-vidhya/create-your-own-desktop-pet-with-python-5b369be18868
+- ✅ Always on top
+- ✅ Movable (shiftable anywhere)
+- ☐ Context and Commands
+- ☐ Book Feature (cartoony book to add features like to-do list)
+- ☐ To-Do List
+- ☐ Reminders
+- ☐ AI to respond back
+- ☐ Pet Actions (feed, play, sleep, etc.)
+- ☐ New Pet Options
 
-
-## Name ???
-
-## Features Planned ( Can add more later )
-
-- [] always on top
-- [] Movable (shiftable anywhere)
-- [] Adding Book Feature ( cartoony book to add other features like toDo )
-- [] Todo List
-- [] Reminders
-- [] Ai to answer back
-- [] pet actions ( feed , play, sleep etc )
-
-
-
+---
